@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moon</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Link to the custom CSS file -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Vanta.js Background -->
+    <div id="vanta-bg"></div> 
+
+    <!-- Header Section -->
+    <!-- <header class="container">
+        <h1 class="animated-font">Welcome to Moon - Where Nights are Delicious</h1>
+    </header> -->
+
+    <section>
+        <div class="content">
+            <h2>Moon</h2>
+            <h2>Moon</h2>
+        </div>
+    </section>
+
+    <div class="container">
+        <h3>coming soon<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></h3>
+    </div>
+
+    <!-- Add the Vanta.js scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+    <script>
+        VANTA.BIRDS({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color1: 0x706767,
+            color2: 0x1d1db6,
+            colorMode: "lerpGradient"
+        })
+    </script>
+</body>
+</html>
